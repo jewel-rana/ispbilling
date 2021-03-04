@@ -1,0 +1,47 @@
+{
+  "name": "ispbilling",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12",
+    "chart.js": "^2.9.3",
+    "d3": "^5.7.0",
+    "datamaps": "^0.5.9",
+    "date-fns": "^1.30.1",
+    "dropzone": "^5.5.1",
+    "element-ui": "2.4.11",
+    "es6-promise": "^4.1.1",
+    "flatpickr": "^4.5.7",
+    "fuse.js": "^3.2.0",
+    "google-maps": "^3.2.1",
+    "nouislider": "^12.1.0",
+    "perfect-scrollbar": "^1.3.0",
+    "quill": "^1.3.6",
+    "sweetalert2": "^9.5.4",
+    "vee-validate": "^3.2.1",
+    "vue-chartjs": "^3.5.0",
+    "vue-clipboard2": "^0.3.0",
+    "vue-flatpickr-component": "^8.1.2",
+    "vue2-transitions": "^0.2.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.5.0"
+  }
+}
